@@ -1,6 +1,7 @@
 # NSPlugins
 A collection for public NutScript plugins created by me.
 
+# License
 Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
 © Copyright 2020 by Zoephix
