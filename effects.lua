@@ -1,5 +1,5 @@
 PLUGIN.name = "First Person Effects"
-PLUGIN.author = "Black Tea"
+PLUGIN.author = "Black Tea (fixed by Zoephix)"
 PLUGIN.desc = "This plugin adds more effects on First Person Perspective."
 
 NUT_CVAR_EFFECTS = CreateClientConVar("nut_fpeffects", 1, true, true)
