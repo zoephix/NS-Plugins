@@ -306,10 +306,6 @@ do
 					icon = "icon16/shield.png"
 				elseif (speaker:IsAdmin()) then
 					icon = "icon16/star.png"
-				elseif (speaker:IsUserGroup("moderator") or speaker:IsUserGroup("juniorstaff") or speaker:IsUserGroup("JuniorStaff")) then
-					icon = "icon16/wrench.png"
-				elseif (speaker:IsUserGroup("vip") or speaker:IsUserGroup("donator") or speaker:IsUserGroup("donor")) then
-					icon = "icon16/heart.png"
 				end
 
 				icon = Material(hook.Run("GetPlayerIcon", speaker) or icon)
