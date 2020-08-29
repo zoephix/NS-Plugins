@@ -1,6 +1,6 @@
 PLUGIN.name = "Door Extensions"
 PLUGIN.author = "Zoephix"
-PLUGIN.desc = "A extension for the doors plugin, adding easy commands that target every door."
+PLUGIN.desc = "A extension for the doors plugin, adding commands which target every door."
 
 local PLUGIN = PLUGIN
 
