@@ -34,7 +34,7 @@ if ( SERVER ) then
 		for k, v in pairs(self:getData() or {}) do
 			-- to make sure we don't duplicate the entities
 			for _, entity in pairs(ents.FindInSphere(v.pos, 1)) do
-				if (entity:GetClass() == v.entity and entity:GetModel() == v.model) then
+				if (entity:GetModel() == v.model) then
 					return
 				end
 			end
