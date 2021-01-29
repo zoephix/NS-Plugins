@@ -49,6 +49,7 @@ if ( SERVER ) then
 			entity:SetMaterial(v.material)
 			entity:Spawn()
 			entity:Activate()
+			entity:SetPersistent(true)
 
 			if (IsValid(entity:GetPhysicsObject())) then
 				entity:GetPhysicsObject():EnableMotion(v.motion)
