@@ -33,8 +33,8 @@ if ( SERVER ) then
 	function PLUGIN:LoadData()
 		for k, v in pairs(self:getData() or {}) do
 			-- to make sure we don't duplicate the entities
-			for _, entity in pairs(ents.FindInSphere(v.pos, 1)) do
-				if (entity:GetModel() == v.model) then
+			for _, entity in pairs(ents.FindInSphere(v.pos, 5)) do
+				if (entity:GetClass() = v.entity and entity:GetPos() == v.pos and entity:GetModel() == v.model) then
 					return
 				end
 			end
