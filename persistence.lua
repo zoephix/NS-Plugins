@@ -1,11 +1,3 @@
---[[
-	This script is part of Black Mesa Roleplay schema by Zoephix and
-	exclusively made for LimeFruit (limefruit.net)
-
-	© Copyright 2020: Zoephix. do not share, use, re-distribute or modify
-	without written permission from Zoephix.
---]]
-
 PLUGIN.name = "Persistence"
 PLUGIN.desc = "Saves persisted props and entities through restarts."
 PLUGIN.author = "Zoephix"
