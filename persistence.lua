@@ -35,7 +35,7 @@ if ( SERVER ) then
 			-- to make sure we don't duplicate the entities
 			for _, entity in pairs(ents.FindInSphere(v.pos, 5)) do
 				if (entity:GetClass() == v.entity and entity:GetModel() == v.model) then
-					entity:Remove()
+					continue
 				end
 			end
 
