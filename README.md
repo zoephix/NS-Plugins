@@ -1,4 +1,4 @@
-# NSPlugins
+# NS-Plugins
 A collection for public NutScript plugins created by me.
 
 # License
