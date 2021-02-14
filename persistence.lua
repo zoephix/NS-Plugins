@@ -17,7 +17,7 @@ PLUGIN.entities = PLUGIN.entities or {}
 
 -- Entities which are blocked from interaction
 PLUGIN.blacklist = PLUGIN.blacklist or {
-  [ "func_button" ] = true,
+  	[ "func_button" ] = true,
 	[ "class C_BaseEntity" ] = true,
 	[ "func_brush" ] = true,
 	[ "func_tracktrain" ] = true,
