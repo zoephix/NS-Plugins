@@ -1,11 +1,3 @@
---[[
-	This script is part of Black Mesa Roleplay schema by Zoephix and
-	exclusively made for LimeFruit (limefruit.net)
-
-	© Copyright 2020: Zoephix. do not share, use, re-distribute or modify
-	without written permission from Zoephix.
---]]
-
 local PLUGIN = PLUGIN
 
 PLUGIN.name = "Persistence"
