@@ -1,7 +1,7 @@
 local PLUGIN = PLUGIN
 
 PLUGIN.name = "Spawn Menu Items"
-PLUGIN.desc = "Adds a tab for spawning items to the spawn menu."
+PLUGIN.desc = "Adds a tab to the spawn menu for spawning items."
 PLUGIN.author = "Zoephix"
 
 -- Cooldown in seconds between item spawning
