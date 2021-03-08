@@ -10,7 +10,7 @@ PLUGIN.name = "Welcome"
 PLUGIN.desc = "Implements NutScript 1.0 color correction."
 PLUGIN.author = "Zoephix"
 
-nut.config.add("colorCorrection", true, "Whether or not color correction is enabled.", nil, {
+nut.config.add("colorCorrection", false, "Whether or not color correction is enabled.", nil, {
 	category = "appearance"
 })
 
