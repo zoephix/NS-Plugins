@@ -7,6 +7,15 @@ PLUGIN.author = "Zoephix"
 -- Cooldown in seconds between item spawning
 PLUGIN.cooldown = 0.5
 
+-- Icons used to indicate each category
+PLUGIN.categoryIcons = {
+    ["Ammunition"] = "icon16/box.png",
+    ["Consumables"] = "icon16/cake.png",
+    ["Medical"] = "icon16/heart.png",
+    ["Outfit"] = "icon16/briefcase.png",
+    ["Weapons"] = "icon16/gun.png"
+}
+
 if (SERVER) then
     nut.log.addType("itemSpawned", function(client, itemID)
 		return string.format("%s (%s) has spawned '%s'", client:SteamName(), client:SteamID(), nut.item.list[itemID].name)
@@ -74,7 +83,7 @@ else
         --
         for categoryName, v in SortedPairs(categorised) do
             -- Add a node to the tree
-            local node = tree:AddNode(categoryName, "icon16/bricks.png")
+            local node = tree:AddNode(categoryName, PLUGIN.categoryIcons[categoryName] or "icon16/bricks.png")
 
             -- When we click on the node - populate it using this function
             node.DoPopulate = function(self)
